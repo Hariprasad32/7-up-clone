@@ -1,0 +1,161 @@
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* navbar */
+
+
+
+body {
+    padding-top: 90px;
+}
+
+.nav {
+    background-color: #F79A83;
+    border-bottom: 1px solid white;
+    width: 100%;
+}
+
+.nav-logo {
+    height: 80px;
+    padding: 10px;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.nav-item .nav-link {
+    color: white !important;
+}
+.social-logo {
+    height: 22px;
+    display: flex;
+    list-style: none;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* background images */
+
+
+
+.bg-image{
+    margin-top: 90px;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.para{
+    z-index: 5;
+}
+
+.para-btn {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+@media (max-width: 767.98px) {
+    #responsive-image {
+        content: url("images/768px-1.png");
+        width: 100%;
+    }
+
+    .col-6 {
+        width: 100% !important;
+    }
+
+    .para-btn {
+        top: auto;
+        bottom: 10px;
+        left: 50%; 
+        transform: translateX(-50%);
+        text-align: center;
+        padding: 10px 20px; 
+    }
+}
+@media (max-width: 767.98px) {
+    #responsive-image1 {
+        content: url("images/7 up.jpg");
+        width: 100%;
+    }
+    .col-6 {
+        width: 100% !important;
+    }
+    .para-btn{
+        position: absolute;
+         text-align: end;
+    }
+}
+
+@media (max-width: 767.98px) {
+    #responsive-image2 {
+        content: url("images/7 up (1).jpg");
+        width: 100%;
+    }
+    .col-6 {
+        width: 100% !important;
+    }
+}
+
+
+/* footer content */
+
+
+.footer{
+    background-color: #3E3E3E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .btn{
+    border: 3px solid white;
+  } 
+.no-hover:hover {
+    background-color: transparent; 
+    border-color: #ffffff;
+    color: #ffffff; 
+    box-shadow: none;
+    cursor: none;
+  }
+  
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-content1{
+    display: flex;
+     font-size: 10px;
+     list-style: none;
+     gap: 10px;
+     align-items: center;
+     justify-content: center;
+}
+
+.footer-content p{
+    color: white;
+    font-size: 9px;
+}
+
+.bg-transparent-green {
+    background-color: rgba(0, 60, 0, 0.8); 
+    border-radius: 50px;
+    padding: 10px 20px; 
+}
